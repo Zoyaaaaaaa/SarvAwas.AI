@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+lightgbm
+shap
+scikit-learn
+pydantic
+python-dotenv
+httpx
+requests
+geopy
+prometheus-fastapi-instrumentator
+colorama

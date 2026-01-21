@@ -1,0 +1,10 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+2026-01-19 10:57:42,028 - rera_production - INFO - Initializing RERA Risk Engine...
+/usr/local/lib/python3.10/site-packages/sklearn/base.py:442: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.8.0 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2026-01-19 10:57:44,254 - app.models.loader - ERROR - Critical error loading models: code expected at most 16 arguments, got 18
+2026-01-19 10:57:44,254 - rera_production - ERROR - RERA Risk Engine failed to initialize correctly.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)

@@ -1,0 +1,33 @@
+================================================================================
+RERA RISK PREDICTION MODEL - TRAINING RESULTS
+================================================================================
+
+Training Timestamp: 20260119_160119
+Total Features: 16
+Dataset Size: 43928 projects
+
+COMPLETION PROBABILITY MODEL (Regression)
+--------------------------------------------------------------------------------
+MAE: 0.0046
+RMSE: 0.0111
+R²: 0.9905
+
+DELAY RISK CLASSIFIER
+--------------------------------------------------------------------------------
+Accuracy: 0.9886
+Weighted F1: 0.9887
+Precision: 0.9892
+Recall: 0.9886
+
+TOP 10 FEATURES BY IMPORTANCE
+--------------------------------------------------------------------------------
+booking_ratio: 2299.59
+delay_severity: 1168.98
+market_absorption_risk: 700.00
+high_demand_signal: 185.50
+has_delay: 173.85
+inventory_left: 74.21
+project_scale: 13.61
+vertical_complexity: 6.28
+district_avg_delay_days: 5.73
+fsi_intensity: 4.62
