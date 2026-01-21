@@ -238,20 +238,6 @@ Required columns:
 - `number_of_appartments`, `number_of_booked_appartments`
 - `sanctioned_fsi`, `cases_count`
 
----
-
-## 🛡️ Production Checklist
-
-- [x] Dockerized
-- [x] Pydantic validation
-- [x] Structured logging
-- [x] CORS configured
-- [x] Health checks
-- [x] Prometheus metrics
-- [x] SHAP explainability
-- [x] Error handling
-- [x] Feature versioning
-- [x] Model serialization
 
 ---
 
@@ -326,3 +312,4 @@ Built for production deployment. Uses:
 
  
  
+
